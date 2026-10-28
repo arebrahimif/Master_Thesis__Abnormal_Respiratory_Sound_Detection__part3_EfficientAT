@@ -2,3 +2,26 @@ __pycache__
 resources/*.pt
 resources/*.npy
 .idea
+wandb/*
+!wandb/README.md
+
+.venv/
+.git/
+
+# cache
+cache/
+
+# vscode
+.vscode/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+
+#############################################
+# .whl extensions
+*.whl
+
+#ICBHI files and folders
+audios_cycles/
+*/audios_cycles/
